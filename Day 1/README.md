@@ -1,31 +1,41 @@
 # Day 1 - Introduction to Data Analytics & Excel Basics
 
-## Topics Learned
+## Overview
 
-### Introduction to Data Analytics
+Day 1 focused on understanding the fundamentals of **Data Analytics** and gaining hands-on experience with **Microsoft Excel basic functions**.
+
+---
+
+# Topics Learned
+
+## Introduction to Data Analytics
 
 * What is Data Analytics
 * Importance of Data Analytics
-* Analytics Lifecycle
-* Types of Analytics
+* Data Analytics Lifecycle
+* Types of Analytics:
 
   * Descriptive Analytics
   * Diagnostic Analytics
   * Predictive Analytics
   * Prescriptive Analytics
 
-### Tools Used in Data Analytics
+---
 
-* Excel
+## Tools Used in Data Analytics
+
+* Microsoft Excel
 * SQL
 * Python
 * Power BI
 * Tableau
 
-### Introduction to Microsoft Excel
+---
+
+## Introduction to Microsoft Excel
 
 * Workbook & Worksheet Basics
-* Rows & Columns
+* Understanding Rows & Columns
 * Basic Functions & Formulas
 * Data Analysis Concepts
 * Data Visualization Basics
@@ -36,9 +46,11 @@
 
 ## Excel Basic Functions Task
 
-Performed calculations on a sample sales dataset using Excel formulas.
+Performed calculations on a sample sales dataset using various Excel formulas and functions.
 
-### Functions Used
+---
+
+## Functions Used
 
 * `SUM()`
 * `MIN()`
@@ -47,7 +59,9 @@ Performed calculations on a sample sales dataset using Excel formulas.
 * `COUNT()`
 * `ISBLANK()`
 
-### Tasks Completed
+---
+
+## Tasks Completed
 
 1. Find Total Orders
 2. Calculate Total Sales
@@ -62,22 +76,27 @@ Performed calculations on a sample sales dataset using Excel formulas.
 
 # Files Included
 
-* Basic Functions.xlsx
+* `Basic Functions.xlsx`
 * Session Screenshots
 * Learning Materials
 
 ---
 
-# Outcome
+# Learning Outcome
 
-Learned the fundamentals of:
+By the end of Day 1, I learned:
 
-* Data Analytics
-* Excel operations
-* Basic Excel formulas
-* Data handling and calculations
+* Fundamentals of Data Analytics
+* Basic Excel Operations
+* Working with Excel Functions
+* Data Handling & Calculations
+* Introduction to Analytical Thinking
 
 ---
 
-Author: Prince Patel
-Date: 12-05-2026
+# Author
+
+**Prince Patel**
+B.Tech Student | Aspiring Data Analyst
+
+**Date:** 12-05-2026
