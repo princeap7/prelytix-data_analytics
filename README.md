@@ -35,5 +35,6 @@ This repository contains all the work, tasks, learning materials, practice files
 Prince Patel
 B.Tech Student | Aspiring Data Analyst
 
-## Repository Link
-https://github.com/princeap7/prelytix-data_analytics
+## Links
+* https://github.com/princeap7/prelytix-data_analytics
+* www.linkedin.com/in/prince-patel-679283323
