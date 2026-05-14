@@ -3,7 +3,7 @@
 Welcome to my internship repository.
 
 This repository contains all the work, tasks, learning materials, practice files, and projects completed during my Data Analytics Internship at Prelytix Private Limited.
-
+<!--
 ## Topics Covered
 
 * Data Analytics
@@ -29,11 +29,10 @@ This repository contains all the work, tasks, learning materials, practice files
 * SQL
 * Power BI
 * Git & GitHub
-
+-->
 ## Author
-
-Prince Patel
-B.Tech Student | Aspiring Data Analyst
+**Prince Patel**
+<br>B.Tech Student | Aspiring Data Analyst
 
 ## Links
 * https://github.com/princeap7/prelytix-data_analytics
