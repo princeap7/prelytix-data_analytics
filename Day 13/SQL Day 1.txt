@@ -1,0 +1,95 @@
+-- Select Database
+USE prelytix;
+
+-- Create Students Table
+CREATE TABLE students (
+    studentid INT,
+    name VARCHAR(20),
+    course VARCHAR(20),
+    city VARCHAR(20),
+    marks INT
+);
+
+-- Insert Records Into Students Table
+INSERT INTO students (studentid, name, course, city, marks)
+VALUES
+(1, 'Amit', 'Data Science', 'Ahmedabad', 85),
+(2, 'Neha', 'Python', 'Vadodara', 78),
+(3, 'Rahul', 'Java', 'Surat', 92),
+(4, 'Priya', 'PowerBI', 'Rajkot', 67),
+(5, 'Karan', 'Data Analytics', 'Anand', 88),
+(6, 'Sneha', 'Python', 'Nadiad', 74),
+(7, 'Vikas', 'Java', 'Bhavnagar', 81),
+(8, 'Riya', 'PowerBI', 'Gandhinagar', 95),
+(9, 'Arjun', 'Data Science', 'Junagadh', 69),
+(10, 'Pooja', 'Data Analytics', 'Mehsana', 90);
+
+-- Display All Records
+SELECT * FROM students;
+
+-- Display Unique Courses
+SELECT DISTINCT course 
+FROM students;
+
+-- Display First 3 Records
+SELECT * 
+FROM students
+LIMIT 3;
+
+-- Display Top 3 Students Based On Highest Marks
+SELECT * 
+FROM students
+ORDER BY marks DESC
+LIMIT 3;
+
+-- Display Students From Anand And Nadiad
+SELECT * 
+FROM students
+WHERE city IN ('Anand', 'Nadiad');
+
+-- Display Students Enrolled In Python And PowerBI Courses
+SELECT * 
+FROM students
+WHERE course IN ('Python', 'PowerBI');
+
+-- Display Students Having Marks Between 70 And 90
+SELECT * 
+FROM students
+WHERE marks BETWEEN 70 AND 90
+ORDER BY marks DESC;
+
+-- Categorize Students Based On Marks Using CASE Statement
+SELECT 
+    name,
+    marks,
+    CASE
+        WHEN marks >= 90 THEN 'Excellent'
+        WHEN marks >= 70 THEN 'Average'
+        ELSE 'Not Appreciable'
+    END AS Remark
+FROM students;
+
+-- Display Current Date
+SELECT CURDATE();
+
+-- Display Current Timestamp
+SELECT CURRENT_TIMESTAMP();
+
+-- Display Admission Year From Admission Date
+SELECT 
+    name,
+    YEAR(admission_date) AS Admission_Year
+FROM students;
+
+-- Display Admission Month From Admission Date
+SELECT 
+    name,
+    MONTH(admission_date) AS Admission_Month
+FROM students;
+
+-- Convert Name To Uppercase, City To Lowercase And Concatenate Course With Marks
+SELECT 
+    UPPER(name) AS NAME,
+    LOWER(city) AS CITY,
+    CONCAT(course, ' -> ', marks) AS COURSE_MARKS
+FROM students;
