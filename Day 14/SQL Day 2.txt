@@ -1,0 +1,91 @@
+-- Sales Database
+
+-- Customer Table
+create table customers(customerid int primary key, customerName varchar(100), city varchar(50), country varchar(50));
+
+-- Product Table
+create table products(productid int primary key, prodName varchar(100), category varchar(50), price decimal(10,2));
+
+-- Order Table
+CREATE TABLE orders (orderid INT PRIMARY KEY,customerid INT,productid INT,quantity INT,salesAmount DECIMAL(10,2),orderDate DATE);
+
+-- Insert Records into Customers
+INSERT INTO customers VALUES
+(1, 'Rahul Sharma', 'Ahmedabad', 'India'),
+(2, 'Priya Patel', 'Vadodara', 'India'),
+(3, 'Amit Singh', 'Mumbai', 'India'),
+(4, 'Neha Verma', 'Delhi', 'India'),
+(5, 'John Smith', 'New York', 'USA'),
+(6, 'Emma Watson', 'London', 'UK'),
+(7, 'Arjun Mehta', 'Surat', 'India'),
+(8, 'Sneha Joshi', 'Pune', 'India'),
+(9, 'David Miller', 'Toronto', 'Canada'),
+(10, 'Karan Shah', 'Rajkot', 'India'),
+(11, 'Riya Desai', 'Bhavnagar', 'India'),
+(12, 'Michael Lee', 'Sydney', 'Australia'),
+(13, 'Anjali Gupta', 'Jaipur', 'India'),
+(14, 'Chris Evans', 'Chicago', 'USA'),
+(15, 'Manav Patel', 'Anand', 'India');
+
+-- Insert Records into Products
+INSERT INTO products VALUES
+(101, 'Laptop', 'Electronics', 55000.00),
+(102, 'Mobile', 'Electronics', 25000.00),
+(103, 'Headphones', 'Accessories', 2000.00),
+(104, 'Keyboard', 'Accessories', 1500.00),
+(105, 'Mouse', 'Accessories', 800.00),
+(106, 'Tablet', 'Electronics', 30000.00),
+(107, 'Smart Watch', 'Wearables', 5000.00),
+(108, 'Printer', 'Electronics', 12000.00),
+(109, 'Camera', 'Electronics', 45000.00),
+(110, 'Speaker', 'Audio', 3500.00),
+(111, 'Monitor', 'Electronics', 15000.00),
+(112, 'Router', 'Networking', 2500.00),
+(113, 'Pendrive', 'Storage', 700.00),
+(114, 'Hard Disk', 'Storage', 4500.00),
+(115, 'Power Bank', 'Accessories', 1800.00);
+
+-- Insert Records into Orders
+INSERT INTO orders VALUES
+(1001, 1, 101, 1, 55000.00, '2026-01-05'),
+(1002, 2, 102, 2, 50000.00, '2026-01-07'),
+(1003, 3, 103, 3, 6000.00, '2026-01-10'),
+(1004, 4, 104, 2, 3000.00, '2026-01-12'),
+(1005, 5, 105, 5, 4000.00, '2026-01-15'),
+(1006, 6, 106, 1, 30000.00, '2026-01-18'),
+(1007, 7, 107, 2, 10000.00, '2026-01-20'),
+(1008, 8, 108, 1, 12000.00, '2026-01-22'),
+(1009, 9, 109, 1, 45000.00, '2026-01-24'),
+(1010, 10, 110, 4, 14000.00, '2026-01-25'),
+(1011, 11, 111, 1, 15000.00, '2026-01-26'),
+(1012, 12, 112, 3, 7500.00, '2026-01-27'),
+(1013, 13, 113, 10, 7000.00, '2026-01-28'),
+(1014, 14, 114, 2, 9000.00, '2026-01-29'),
+(1015, 15, 115, 3, 5400.00, '2026-01-30');
+
+-- SELECT Statement
+select * from orders o;
+select * from products p;
+select * from customers c;
+select customerName, city from customers c;
+select * from customers where city="Ahmedabad";
+select * from orders where salesAmount > 40000;
+select * from customers where city="Anand" and country = "India";
+select * from products where price >= 1000;
+select * from customers where customerName like 'R%';
+select * from customers where customerName like '%e%';
+select * from customers where customerName like '%a';
+select * from products order by price;
+select * from products order by price desc;
+
+select count(*) as TOTAL_ORDERS from orders;
+select sum(salesAmount) as Total_Sales from orders;
+select * , max(salesAmount) as Max_sales from orders;
+
+
+update products set price = 55000 where productid = 101;
+
+select * from customers where city is null;
+
+
+
