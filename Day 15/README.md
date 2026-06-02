@@ -135,8 +135,4 @@ By the end of Day 15, I learned:
 
 B.Tech Student | Aspiring Data Analyst  
 
-<<<<<<< Updated upstream
 **Date - 1 June 2026**
-=======
-**Date:** 01-06-2026 
->>>>>>> Stashed changes
