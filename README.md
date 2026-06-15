@@ -1,144 +1,114 @@
 # Prelytix Data Analytics Internship
----
 
-## Overview
+## About This Repository
 
-This repository documents my journey during the **Data Analytics Internship at Prelytix Private Limited**, covering topics from Excel fundamentals to Power BI dashboards, SQL, Python, NumPy, Pandas, and Data Visualization.
+This repository contains my work from the Data Analytics Internship at Prelytix Private Limited. Over the course of the program, I worked through Excel fundamentals, built Power BI dashboards, practiced SQL, and got hands-on with Python, NumPy, Pandas, and data visualization libraries.
 
-Through hands-on practice and real-world datasets, I developed practical skills in data cleaning, analysis, visualization, and business intelligence.
+Each folder reflects practical exercises and real datasets I worked on, covering everything from data cleaning and exploratory analysis to interactive dashboards and reporting.
 
-### Program Duration
-
-**May 12, 2026 - June 13, 2026**
+**Duration:** May 12, 2026 – June 13, 2026
 
 ---
 
-## Learning Objectives Achieved
+## What I Learned
 
-* Learned Microsoft Excel for data analysis and dashboarding
-* Built interactive Power BI dashboards using DAX
-* Practiced SQL database operations and analysis
-* Improved Python programming and problem-solving skills
-* Explored NumPy and Pandas for data manipulation
-* Created visualizations using Matplotlib and Seaborn
+- Worked with Excel for data analysis, formulas, and dashboard building
+- Built multi-page Power BI dashboards using DAX measures and calculated columns
+- Wrote SQL queries involving joins, aggregations, and database operations
+- Strengthened Python fundamentals and problem-solving through practice programs
+- Used NumPy and Pandas for array operations and data manipulation
+- Created charts and plots using Matplotlib and Seaborn
 
 ---
 
-## Daily Progress
+## Day-by-Day Breakdown
 
-| Day | Topic                                         |
-| --- | --------------------------------------------- |
-| 1   | Introduction to Data Analytics & Excel Basics |
-| 2   | Conditional Functions in Excel                |
-| 3   | Lookup Functions                              |
-| 4   | Text, Date & Time Functions                   |
-| 5   | Data Validation & Conditional Formatting      |
-| 6   | Pivot Tables & KPI Analysis                   |
-| 7   | Excel Dashboard Creation                      |
-| 8   | VBA & Macros                                  |
-| 9   | Data Cleaning & Introduction to Power BI      |
-| 10  | Merge, Append & KPI Dashboard                 |
-| 11  | Sales Analysis Dashboard                      |
-| 12  | Country Performance Dashboard                 |
-| 13  | Shipment Dashboard & SQL Basics               |
-| 14  | Product Dashboard & SQL Operations            |
-| 15  | Python Programming & SQL Joins                |
-| 16  | Pattern Programming                           |
-| 17  | Advanced Python Programs                      |
-| 18  | Introduction to NumPy                         |
-| 19  | NumPy Array Manipulation                      |
-| 20  | Introduction to Pandas                        |
-| 21  | Pandas Data Selection & Filtering             |
-| 22  | Matplotlib & Seaborn                          |
+| Day | Topic |
+|-----|-------|
+| Day 1 | Introduction to Data Analytics & Excel Basics |
+| Day 2 | Conditional Functions in Excel |
+| Day 3 | Lookup Functions |
+| Day 4 | Text, Date & Time Functions |
+| Day 5 | Data Validation & Conditional Formatting |
+| Day 6 | Pivot Tables & KPI Analysis |
+| Day 7 | Excel Dashboard Creation |
+| Day 8 | VBA & Macros |
+| Day 9 | Data Cleaning & Introduction to Power BI |
+| Day 10 | Merge, Append & KPI Dashboard |
+| Day 11 | Sales Analysis Dashboard |
+| Day 12 | Country Performance Dashboard |
+| Day 13 | Shipment Dashboard & SQL Basics |
+| Day 14 | Product Dashboard & SQL Operations |
+| Day 15 | Python Programming & SQL Joins |
+| Day 16 | Pattern Programming |
+| Day 17 | Advanced Python Programs |
+| Day 18 | Introduction to NumPy |
+| Day 19 | NumPy Array Manipulation |
+| Day 20 | Introduction to Pandas |
+| Day 21 | Pandas Data Selection & Filtering |
+| Day 22 | Matplotlib & Seaborn |
 
 ---
 
 ## Tools & Technologies
 
 ### Microsoft Excel
-
-* Functions & Formulas
-* Pivot Tables
-* Conditional Formatting
-* Dashboards
-* VBA & Macros
+- Practiced logical, text, lookup, and date/time formulas
+- Used Pivot Tables, Pivot Charts, and Data Validation for cleaner data handling
+- Built interactive dashboards using slicers and conditional formatting
+- Automated repetitive tasks with VBA and Macros
 
 ### Power BI
-
-* Power Query
-* DAX Measures
-* KPI Cards
-* Interactive Dashboards
+- Used Power Query to clean and transform raw data (ETL)
+- Created calculated columns and DAX measures for tracking metrics
+- Designed clean dashboard layouts with KPI cards, parameters, and filters
 
 ### SQL
+- Performed basic DDL/DML operations — creating and modifying tables, applying constraints
+- Used aggregate functions and grouping to summarize data
+- Combined tables using Inner, Left, Right, and Full Outer Joins, along with subqueries
 
-* Database Operations
-* Aggregate Functions
-* Joins
-* Subqueries
-
-### Python
-
-* Logical Programming
-* Pattern Programming
-* Problem Solving
-
-### NumPy
-
-* Arrays
-* Indexing & Slicing
-* Reshaping
-
-### Pandas
-
-* Series
-* DataFrames
-* Data Selection
-* Filtering
-
-### Data Visualization
-
-* Matplotlib
-* Seaborn
+### Python (Core, NumPy, Pandas, Visualization)
+- Practiced core programming logic and pattern-based problems
+- Worked with NumPy for arrays, indexing, slicing, broadcasting, and reshaping
+- Used Pandas Series and DataFrames for filtering, cleaning, and aggregating data
+- Built plots and charts using Matplotlib and Seaborn
 
 ---
 
 ## Repository Structure
 
-```text
-Day 1
-Day 2
-Day 3
-...
-Day 22
+```
+├── Day 01/
+├── Day 02/
+├── Day 03/
+│   ├── Practice_Files/
+│   └── SQL_Queries.sql
+├── ...
+└── Day 22/
+    ├── Jupyter_Notebooks/
+    ├── Outputs/
+    └── Screenshots/
 ```
 
-Each folder contains:
-
-* Practice Files
-* Jupyter Notebooks
-* Excel Files
-* SQL Queries
-* Screenshots
-* Outputs
+Each day's folder generally includes:
+- **Source files** — Excel workbooks, Power BI `.pbix` files, and sample databases
+- **Code** — Jupyter notebooks (`.ipynb`) and SQL scripts
+- **Screenshots/outputs** — visual records of completed dashboards and results
 
 ---
 
-## Learning Outcomes
+## Key Takeaways
 
-* Developed a strong foundation in Data Analytics
-* Built business dashboards using Power BI
-* Learned SQL database querying
-* Improved Python programming skills
-* Explored NumPy and Pandas for data analysis
-* Created visualizations using Matplotlib and Seaborn
+- Built a solid foundation across the data analytics workflow, from raw data to final reports
+- Practiced turning business requirements into working dashboards in Excel and Power BI
+- Learned to write SQL queries for data aggregation and analysis
+- Used Python to automate and speed up exploratory data analysis
 
 ---
 
 ## Author
 **Patel Prince Ashishkumar**
 
-### Connect With Me
-* **GitHub:** https://github.com/princeap7/prelytix-data_analytics
-* **LinkedIn:** https://www.linkedin.com/in/prince-patel-679283323
----
+- **GitHub:** [princeap7/prelytix-data_analytics](https://github.com/princeap7/prelytix-data_analytics)
+- **LinkedIn:** [prince-patel-679283323](https://www.linkedin.com/in/prince-patel-679283323)
